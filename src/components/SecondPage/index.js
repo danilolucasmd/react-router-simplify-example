@@ -38,6 +38,8 @@ export default class SecondPage extends PureComponent {
             <Link to='/second/second'>Second Sub Page</Link>
           </li>
         </ul>
+
+        {this.props.children}
       </div>
     );
   }

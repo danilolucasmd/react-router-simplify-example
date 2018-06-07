@@ -1,4 +1,4 @@
-import React, { PureComponent } from 'react';
+import React, { PureComponent, Fragment } from 'react';
 import SideNav from 'components/SideNav';
 import FirstPage from 'components/FirstPage';
 import SecondPage from 'components/SecondPage';
@@ -29,7 +29,10 @@ export default class Pages extends PureComponent {
   
   render() {
     return (
-      <SideNav />
+      <Fragment>
+        <SideNav />
+        {this.props.children}
+      </Fragment>
     );
   }
 }
