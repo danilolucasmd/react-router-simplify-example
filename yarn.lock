@@ -5564,9 +5564,9 @@ react-router-dom@^4.2.2:
     react-router "^4.2.0"
     warning "^3.0.0"
 
-react-router-simplify@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/react-router-simplify/-/react-router-simplify-1.0.4.tgz#863d36eeb34dba46e2617aeb435fbf22543bfe9e"
+react-router-simplify@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/react-router-simplify/-/react-router-simplify-1.0.6.tgz#f759577c309fc8e8a599fc9eab44c3268f2c919c"
 
 react-router@^4.2.0:
   version "4.2.0"
